@@ -1,0 +1,76 @@
+/* styles */
+body {
+    background-color: #efefef;
+}
+div.header {
+    width: 100%;
+    height: max-content;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: sticky;
+    float: left;
+    top: -50px;
+}
+.logo {
+    float: left;
+    width: 40%;
+    align-items: center;
+}
+.logo_text {
+    height: 50px;
+    color: white;
+    vertical-align: middle;
+    opacity: 1;
+}
+.hello {
+    width: 99%;
+    min-height: 645px;
+    display: block;
+    background-image: url(images/servers.jpg);
+    object-fit: cover;
+    float: left;
+    position: absolute;
+}
+h1.hello_text {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+}
+h2.hello_text {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-size: medium;
+}
+div.black {
+    width: 100%;
+    min-height: 645px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.toolbar-list {
+    align-items: center;
+}
+.tollbar_item {
+    color: #efefef;
+    float: left;
+    width: 10%;
+    font-size: 24px;
+    background-color: rgba(0,0,0,0.5);
+
+}
+
+.tollbar_item:hover {
+    color: #efefef;
+    float: left;
+    width: 10%;
+    font-size: 24px;
+    background-color: rgba(0,0,0,0.5);
+    border-bottom: #FFFF 2px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 10px;
+}
+.hello-text {
+}
