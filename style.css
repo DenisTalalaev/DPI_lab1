@@ -1,76 +1,49 @@
-/* styles */
-body {
-    background-color: #efefef;
+.header {
+    width: 75%;
+    margin-left: 12.5%;
+    height: 90px;
+    border-bottom: 1px solid #2f2f2f;
+    position: relative;
 }
-div.header {
-    width: 100%;
-    height: max-content;
-    background-color: rgba(0, 0, 0, 0.1);
-    position: sticky;
-    float: left;
-    top: -50px;
+.hello_page {
+    width: auto;
+    background-image: url(images/hello_bg.gif);
+    height: 950px;
+    background-repeat: no-repeat;
 }
-.logo {
-    float: left;
-    width: 40%;
-    align-items: center;
-}
-.logo_text {
-    height: 50px;
-    color: white;
-    vertical-align: middle;
-    opacity: 1;
-}
-.hello {
-    width: 99%;
-    min-height: 645px;
-    display: block;
-    background-image: url(images/servers.jpg);
-    object-fit: cover;
-    float: left;
+img.logo {
     position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
 }
-h1.hello_text {
-    color: white;
-    text-align: center;
-    width: 100%;
-    font-size: large;
+ul.toolbar_list{
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
-h2.hello_text {
-    color: white;
-    text-align: center;
-    width: 100%;
-    font-size: medium;
-}
-div.black {
-    width: 100%;
-    min-height: 645px;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-.toolbar-list {
-    align-items: center;
-}
-.tollbar_item {
-    color: #efefef;
-    float: left;
-    width: 10%;
-    font-size: 24px;
-    background-color: rgba(0,0,0,0.5);
-
+ul.toolbar_list li{
+    display: inline-block;
+    padding: 3px;
+    color: aliceblue;
+    font-size: 15px;
+    height: 100%;
+    margin-left: 70px;
+    padding-bottom: 37px;
+    padding-top: 37px;
 }
 
-.tollbar_item:hover {
-    color: #efefef;
-    float: left;
-    width: 10%;
-    font-size: 24px;
-    background-color: rgba(0,0,0,0.5);
-    border-bottom: #FFFF 2px;
-    border-style: solid;
-    border-top: none;
-    border-left: none;
-    border-right: none;
-    padding-bottom: 10px;
+ul.toolbar_list li:hover {
+    border-bottom: solid aliceblue 1px;
+    padding-bottom: 36px;
 }
-.hello-text {
+
+div.logo {
+    float: left;
+}
+
+div.toolbar {
+    position: relative;
+    top: 50%;
+    float: right;
+    transform: translate(0, -50%);
 }
