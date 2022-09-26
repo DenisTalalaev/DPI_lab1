@@ -4,6 +4,7 @@
     height: 90px;
     border-bottom: 1px solid #2f2f2f;
     position: relative;
+    box-sizing: border-box;
 }
 .hello_page {
     width: auto;
@@ -39,6 +40,7 @@ ul.toolbar_list li:hover {
 
 div.logo {
     float: left;
+    box-sizing: border-box;
 }
 
 div.toolbar {
@@ -46,4 +48,18 @@ div.toolbar {
     top: 50%;
     float: right;
     transform: translate(0, -50%);
+    box-sizing: border-box;
+}
+
+h1.hello_text {
+    color: #FFF;
+    font-size: 50px;
+    margin-top: 345px;
+    text-align: center;
+    margin-bottom: 0;
+}
+h2.hello_text {
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
 }
