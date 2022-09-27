@@ -1,68 +1,92 @@
-body {
-    margin: 0;
-}
-.header {
-    width: 75%;
-    margin-left: 12.5%;
-    height: 90px;
-    border-bottom: 1px solid #2f2f2f;
-    position: relative;
-    box-sizing: border-box;
-}
-.hello_page {
-    width: auto;
-    background-image: url(images/hello_bg.gif);
-    height: 950px;
-    background-repeat: no-repeat;
-}
-img.logo {
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-}
-ul.toolbar_list{
+@import url(fonts/stylesheet.css);
+
+*, *::before, *::after {
     margin: 0;
     padding: 0;
-    height: 100%;
-}
-ul.toolbar_list li{
-    display: inline-block;
-    padding: 3px;
-    color: aliceblue;
-    font-size: 15px;
-    height: 100%;
-    margin-left: 70px;
-    padding-bottom: 37px;
-    padding-top: 37px;
-}
-
-ul.toolbar_list li:hover {
-    border-bottom: solid aliceblue 1px;
-    padding-bottom: 36px;
-}
-
-div.logo {
-    float: left;
     box-sizing: border-box;
 }
 
-div.toolbar {
-    position: relative;
-    top: 50%;
-    float: right;
-    transform: translate(0, -50%);
-    box-sizing: border-box;
+.header-nav {
+    padding: 31px 201px 21px 204px;
+    width: 1600px;
+    display: flex;
+    justify-content: space-between;
 }
 
-h1.hello_text {
-    color: #FFF;
-    font-size: 50px;
-    margin-top: 345px;
-    text-align: center;
-    margin-bottom: 0;
+.container {
+    height: 90px;
 }
-h2.hello_text {
-    color: #FFF;
-    font-size: 20px;
+
+.header {
+    width: auto;
+    background-image: url(images/hello_bg.gif);
+    height: 942px;
+    background-repeat: no-repeat;
+}
+
+.logo__img {
+    min-height: 29px;
+    max-width: 133px;
+}
+
+.nav {
+    padding-top: 4px;
+}
+
+.nav__item {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Lato";
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 632px;
+}
+
+.nav__item:hover {
+    text-decoration: underline;
+    text-underline-offset: 38px;
+}
+
+.hello-page {
+    height: 852px;
+    width: 1600px;
+}
+
+.hello-page-container {
+    position: absolute;
+    top: calc(50% + 99px - 71px);
+    left: calc(50% - 222px);
+    height: 162px;    
+    width: 444px;
+}
+
+.hello-page__title {
+    /* position: absolute; */
     text-align: center;
+    font-size: 72px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Myriad Pro";
+}
+
+.hello-page__subtitle {
+    padding-top: 4px;
+    padding-left: 1px;
+    text-align: center;
+}
+
+.hello-page__text:first-child {
+    padding-bottom: 10px;
+}
+
+.hello-page__text {
+    font-size: 32px;
+    color: #ffffff;
+    font-style: italic;
+    font-family: "Georgia";
 }
