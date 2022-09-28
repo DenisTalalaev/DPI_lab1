@@ -15,11 +15,14 @@
 
 .container {
     height: 90px;
+    width: 1600px;
+    margin: 0 auto;
 }
 
 .header {
-    width: auto;
-    background-image: url(images/hello_bg.gif);
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/Header\ BG.png);
     height: 942px;
     background-repeat: no-repeat;
 }
@@ -55,12 +58,14 @@
 .hello-page {
     height: 852px;
     width: 1600px;
+    margin: 0 auto;
 }
 
 .hello-page-container {
-    position: absolute;
-    top: calc(50% + 99px - 71px);
-    left: calc(50% - 222px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 336px; 
+    /* margin: auto; */
     height: 162px;    
     width: 444px;
 }
