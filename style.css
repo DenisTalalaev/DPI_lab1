@@ -101,21 +101,24 @@
 }
 
 .member-container {
-    max-width: 1600px;
+    /* max-width: 1600px; */
     display: flex;
+    /* margin: 0 auto; */
 }
 
 .login-btn {
-    width: 810px;
+    /* width: 810px; */
+    width: 50.6%;
     height: 120px;
     background-color: #20414a;
     z-index: -1;
+    position: relative;
 }
 
 .register-btn {
     height: 120px;
     background-color: #2fab6c;
-    width: 790px;
+    width: 49.5%;
     /* display: inline-block; */
     /* vertical-align: top; */
     position: relative;
@@ -137,22 +140,30 @@
 }
 
 .register-btn__title {
+    /* width: 790px; */
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+    font-size: 22px;
+    overflow: hidden;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    top: calc(50% - 14px);
+    left: 241px; /*надо переделать*/
+}
+
+.login-btn__title {
+    margin: 0 auto;
+    /* width: 810px;  */
     position: absolute;
     font-size: 22px;
     color: #ffffff;
     font-weight: 700;
     font-family: "Lato";
     top: calc(50% - 14px);
-    left: 240px; /*надо переделать*/
-}
-
-.login-btn__title {
-    position: relative;
-    font-size: 22px;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Lato";
-    top: calc(50% - 14px);
-    left: auto;
-    right: -470px; /*надо переделать*/
+    right: 270px;
+    /* right: -470px; */
+    overflow: hidden;
+    /* right: -470px; надо переделать */
 }
