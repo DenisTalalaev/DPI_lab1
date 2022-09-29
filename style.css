@@ -23,7 +23,7 @@
     width: 100%;
     background-size: cover;
     background-image: url(images/Header\ BG.png);
-    height: 942px;
+    height: 944px;
     background-repeat: no-repeat;
 }
 
@@ -64,14 +64,13 @@
 .hello-page-container {
     margin-left: auto;
     margin-right: auto;
-    margin-top: 336px; 
-    /* margin: auto; */
-    height: 162px;    
+    margin-top: 336px;
+    /*надо переделать*/
+    height: 162px;
     width: 444px;
 }
 
 .hello-page__title {
-    /* position: absolute; */
     text-align: center;
     font-size: 72px;
     color: #ffffff;
@@ -94,4 +93,66 @@
     color: #ffffff;
     font-style: italic;
     font-family: "Georgia";
+}
+
+.member {
+    height: 122px;
+    width: 100%;
+}
+
+.member-container {
+    max-width: 1600px;
+    display: flex;
+}
+
+.login-btn {
+    width: 810px;
+    height: 120px;
+    background-color: #20414a;
+    z-index: -1;
+}
+
+.register-btn {
+    height: 120px;
+    background-color: #2fab6c;
+    width: 790px;
+    /* display: inline-block; */
+    /* vertical-align: top; */
+    position: relative;
+    /* overflow-x: hidden; */
+}
+
+.register-btn:before {
+    content: '';
+    display: block;
+    clear: both;
+    width: 0;
+    height: 0;
+    border-left: 29px solid transparent;
+    border-bottom: 120px solid #2fab6c;
+    position: absolute;
+    top: 0;
+    left: -29px;
+    z-index: 99;
+}
+
+.register-btn__title {
+    position: absolute;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    top: calc(50% - 14px);
+    left: 240px; /*надо переделать*/
+}
+
+.login-btn__title {
+    position: relative;
+    font-size: 22px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Lato";
+    top: calc(50% - 14px);
+    left: auto;
+    right: -470px; /*надо переделать*/
 }
