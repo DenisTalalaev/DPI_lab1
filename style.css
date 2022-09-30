@@ -1,4 +1,5 @@
 @import url(fonts/stylesheet.css);
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap'); */
 
 *, *::before, *::after {
     margin: 0;
@@ -89,10 +90,10 @@
 }
 
 .hello-page__text {
-    font-size: 32px;
     color: #ffffff;
-    font-style: italic;
+    font-size: 32px;
     font-family: "Georgia";
+    font-style: italic;
 }
 
 .member {
@@ -150,7 +151,8 @@
     font-weight: 700;
     font-family: "Lato";
     top: calc(50% - 14px);
-    left: 241px; /*надо переделать*/
+    left: 241px;
+    /*надо переделать*/
 }
 
 .login-btn__title {
@@ -166,4 +168,118 @@
     /* right: -470px; */
     overflow: hidden;
     /* right: -470px; надо переделать */
+}
+
+.domain {
+    height: 576px;
+    width: 100%;
+}
+
+.domain-container {
+    width: 1600px;
+    padding: 83px 354px 90px 355px;
+}
+
+.domain__title {
+    font-size: 24px;
+    color: #383737;
+    font-weight: 800;
+    font-family: "Lato";
+    text-align: center;
+    margin-bottom: 22.5px;
+}
+
+.domain__text {
+    font-size: 16px;
+    /* letter-spacing: -0.65px; */
+    color: #a2a2a2;
+    font-weight: 200;
+    font-family: 'Montserrat';
+}
+
+.input-domain {
+    margin-top: 27px;
+    width: 890px;
+    position: relative;
+}
+
+.input-domain__item {
+    margin-left: 72px;
+    /* position: absolute; */
+    height: 50px;
+    width: 732px;
+    padding: 16px 146px 17px 14px;
+    font-size: 15px;
+    font-family: "Lato";
+    color: rgb(134, 134, 134);
+    font-weight: 700;
+}
+
+.input-domain:before {
+    display: block;
+    content: "www.";
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    font-family: "Lato";
+    position: relative;
+    padding-left: 15px;
+    top: 35px;
+}
+
+.input-domain:after {
+    display: block;
+    content: ".com";
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+    font-family: "Lato";
+    position: absolute;
+    /* padding-left: 15px; */
+    right: 37px;
+    top: 35px;
+}
+
+i {
+    font-size: 9px;
+    color: #cbcbcb;
+    font-family: "Font Awesome";
+}
+
+.chevron-down-width {
+    margin-left: 57.5px;
+    top: 4px;
+}
+
+.domain-prices {
+    margin-top: 39px;
+}
+
+.grid-container {
+    height: 192px;
+    width: 889px;
+    border-collapse: collapse;
+    margin-left: 1px;
+}
+
+.grid__item {
+    border: #20414a solid 1px;
+    /* border-collapse: collapse; */
+    text-align: center;
+    /* padding-top: 39px; */
+    font-size: 14px;
+    color: #cbcbcb;
+    font-weight: 400;
+    font-family: "Lato";
+    width: 221px;
+    height: 97px;
+}
+
+tr:last-child .grid__item {
+    padding-bottom: 4px;
+    /* padding-right: 0px; */
+}
+
+.grid__item::before {
+    
 }

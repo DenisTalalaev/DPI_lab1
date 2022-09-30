@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/fonts/stylesheet.css">
     <title>Ghost Host</title>
 </head>
 
@@ -38,19 +39,55 @@
     </div>
 </header>
 
-<div class="member">
-    <div class="member-container">
-        <div class="login-btn">
-            <div class="login-btn__title">LOGIN</div>
-        </div>
-        <div class="register-btn">
-            <div class="register-btn__title">REGISTER</div>
-        </div>
-    </div>
-</div>
 
 <body>
+    <div class="member">
+        <div class="member-container">
+            <div class="login-btn">
+                <h2 class="login-btn__title">LOGIN</h2>
+            </div>
+            <div class="register-btn">
+                <h2 class="register-btn__title">REGISTER</h2>
+            </div>
+        </div>
+    </div>
+
+    <div class="domain">
+        <div class="domain-container">
+            <div class="domain__title">Would you like to buy a new domain ?</div>
+            <div class="domain__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris
+                ac nulla interdum, id molestier.</div>
+            <div class="input-domain">
+                <!-- <h4>www.</h4> -->
+                <input type="text"
+                    pattern="[^(((?!\-))(xn\-\-)?[a-z0-9\-_]{0,61}[a-z0-9]{1,1}\.)*(xn\-\-)?([a-z0-9\-]{1,61}|[a-z0-9\-]{1,30})\.[a-z]{2,}$]"
+                    placeholder="What do you want?" class="input-domain__item">
+                <i class="fa-solid fa-chevron-down chevron-down-width"></i>
+                <!-- <h4>.com</h4> -->
+            </div>
+            <div class="domain-prices">
+                <table class="grid-container">
+                    <tr>
+                        <th class="grid__item">.COM</th>
+                        <th class="grid__item">1 Year</th>
+                        <th class="grid__item">$9.00 USD</th>
+                        <th class="grid__item">Transfer Price No</th>
+                    </tr>
+                    <tr>
+                        <th class="grid__item">.NET</th>
+                        <th class="grid__item">1 Year</th>
+                        <th class="grid__item">$9.00 USD</th>
+                        <th class="grid__item">Transfer Price No</th>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+    </div>
 
 </body>
+
+<script src="https://kit.fontawesome.com/2b55738396.js" crossorigin="anonymous"></script>
 
 </html>
