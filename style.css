@@ -6,10 +6,17 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.header-nav {
-    padding: 31px 201px 21px 204px;
+body {
     width: 1600px;
+}
+.header-nav {
+    padding: 31px 0 21px 0;
+    margin-left: 201px;
+    margin-right: 204px;
+    padding-bottom: 23px;
+    width: 1195px;
+    border-bottom: 1px solid;
+    border-color: #262728;
     display: flex;
     justify-content: space-between;
 }
@@ -27,6 +34,7 @@
     height: 944px;
     background-repeat: no-repeat;
 }
+
 
 .logo__img {
     min-height: 29px;
@@ -47,6 +55,7 @@
 
 .nav-list {
     display: flex;
+    margin-left: 5px;
     justify-content: space-between;
     width: 632px;
 }
@@ -80,7 +89,7 @@
 }
 
 .hello-page__subtitle {
-    padding-top: 4px;
+    padding-top: 3px;
     padding-left: 1px;
     text-align: center;
 }
@@ -194,11 +203,12 @@
     /* letter-spacing: -0.65px; */
     color: #a2a2a2;
     font-weight: 200;
+
+    margin-bottom: 27px;
     font-family: 'Montserrat';
 }
 
 .input-domain {
-    margin-top: 27px;
     width: 890px;
     position: relative;
 }
