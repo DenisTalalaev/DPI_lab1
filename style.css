@@ -150,6 +150,8 @@
     z-index: 99;
 }
 
+
+
 .register-btn__title {
     /* width: 790px; */
     overflow: hidden;
@@ -187,6 +189,8 @@
 
 .domain-container {
     width: 1600px;
+    display: block;
+    margin: 0 auto;
     padding: 83px 354px 90px 355px;
 }
 
