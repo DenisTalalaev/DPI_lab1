@@ -288,6 +288,6 @@ tr:last-child .grid__item {
     /* padding-right: 0px; */
 }
 
-.grid__item::before {
+.grid__item::before {     
     
 }
