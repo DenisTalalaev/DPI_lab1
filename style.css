@@ -267,19 +267,22 @@ i {
 }
 
 .domain-prices {
-    margin-top: 39px;
+    position: center;
+    margin-left: 3px;
+    margin-top: 40px;
 }
 
 .grid-container {
+    border-collapse: collapse;
+    border: thin solid #d9d9d9;
     height: 192px;
     width: 889px;
-    border-collapse: collapse;
     margin-left: 1px;
 }
 
 .grid__item {
-    border: #20414a solid 1px;
-    /* border-collapse: collapse; */
+    border-bottom: 1px solid #d9d9d9;
+    border-right: 1px solid #d9d9d9;
     text-align: center;
     /* padding-top: 39px; */
     font-size: 14px;
@@ -290,11 +293,272 @@ i {
     height: 97px;
 }
 
-tr:last-child .grid__item {
-    padding-bottom: 4px;
-    /* padding-right: 0px; */
+.grid__item__top:before{
+    position: relative;
+    content: ' ';
+    width: 13px;
+    height: 13px;
+    bottom: -65px;
+    right: 7px;
+    display: block;
+    background-color: #fff;
 }
 
-.grid__item::before {     
-    
+.grid__item__top:after{
+    position: relative;
+    content: ' ';
+    width: 10px;
+    height: 16px;
+    bottom: 55px;
+    right: -217px;
+    display: block;
+    background-color: #fff;
+}
+
+.grid__item__top__left:before{
+    position: relative;
+    content: ' ';
+    width: 26px;
+    height: 13px;
+    bottom: -65px;
+    display: block;
+    background-color: #fff;
+}
+
+.grid__item__top__right:before{
+    position: relative;
+    content: ' ';
+    width: 13px;
+    height: 13px;
+    bottom: -65px;
+    right: 7px;
+    display: block;
+    background-color: #fff;
+}
+
+.grid__item__top__right:after{
+    position: relative;
+    content: ' ';
+    width: 30px;
+    height: 10px;
+    bottom: -35px;
+    right: -191px;
+    display: block;
+    background-color: #fff;
+}
+
+.grid__item__top__left:after{
+    position: relative;
+    content: ' ';
+    width: 10px;
+    height: 16px;
+    bottom: 55px;
+    right: -217px;
+    display: block;
+    background-color: #fff;
+}
+
+.grid__item__bot:after {
+    position: relative;
+    content: ' ';
+    width: 10px;
+    height: 15px;
+    bottom: -32px;
+    right: -217px;
+    display: block;
+    background-color: #fff;
+}
+
+.packages{
+    margin-top: 1px;
+}
+
+.packages__banners{
+    position: absolute;
+}
+
+.package__banner{
+    position: absolute;
+    margin-top: 100px;
+    width: 254.8px;
+    height: 565px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
+    border-top: 5.2px solid;
+}
+
+.basic__package{
+    margin-left: 200px;
+    border-top-color: #f9d423;
+
+}
+
+.normal__package{
+    margin-left: 514px;
+    border-top-color: #7f8c8d;
+}
+
+.big__package{
+    margin-left: 828px;
+    border-top-color: #f85f40;
+}
+
+.biggest__package{
+    margin-left: 1143px;
+    border-top-color: #1abc9c;
+}
+
+.basic__package__img{
+    margin-top: 36px;
+    margin-left: 97px;
+}
+
+.normal__packages__img{
+    margin-top: 36px;
+    margin-left: 97px;
+}
+
+.big__packages__img{
+    margin-top: 36px;
+    margin-left: 97px;
+}
+
+.biggest__packages__img{
+    margin-top: 36px;
+    margin-left: 97px;
+}
+
+.basic__package__title{
+
+    margin-top: 11.4px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Lato";
+    font-size: 16px;
+}
+
+.packages__grid{
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+    width: 200px;
+    margin-left: 28px;
+    margin-top: 17px;
+}
+
+.left__item{
+    display: inline-block;
+    height: 36px;
+    padding-top: 15px;
+    margin-left: -3px;
+    font-family: "Lato";
+    font-weight: lighter;
+    color: #b4b4b4;
+    font-size: 16px;
+}
+
+.right__item{
+    height: 36px;
+    width: 50px;
+    padding-top: 12px;
+    text-align: right;
+    font-family: "Lato";
+    font-weight: 550;
+    font-size: 16px;
+}
+
+.basic__color {
+    color: #f9d423;
+}
+
+.normal__color{
+    color: #7f8c8d;
+}
+
+.big__color{
+    color: #f85f40;
+}
+
+.biggest__color{
+    color: #1abc9c;
+}
+
+.bot__border{
+    height: 12px;
+}
+
+.package__price{
+    width: 105px;
+    height: 30px;
+    color: #7f8c8d;
+    position: absolute;
+    font-family: "Lato";
+    font-weight: normal;
+    font-size: 13px;
+    margin-left: 138px;
+    margin-top: 41px;
+}
+
+.currency{
+    color: black;
+    position: absolute;
+    font-family: "Lato";
+    font-weight: bolder;
+    font-size: 16.5px;
+    margin-left: -43px;
+    margin-top: -9px;
+}
+
+.bold__price{
+    color: black;
+    position: absolute;
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 27.7px;
+    margin-left: -32.5px;
+    margin-top: -14px;
+}
+
+.basic__price__bar{
+    position: absolute;
+    margin-top: 63px;
+    margin-left: 75px;
+    width: 105px;
+    height: 3px;
+    background-color: #f9d423;
+}
+
+.normal__price__bar{
+    position: absolute;
+    margin-top: 63px;
+    margin-left: 75px;
+    width: 105px;
+    height: 3px;
+    background-color: #7f8c8d;
+}
+
+.big__price__bar{
+    position: absolute;
+    margin-top: 63px;
+    margin-left: 75px;
+    width: 105px;
+    height: 3px;
+    background-color: #f85f40;
+}
+
+.biggest__price__bar{
+    position: absolute;
+    margin-top: 63px;
+    margin-left: 75px;
+    width: 105px;
+    height: 3px;
+    background-color: #1abc9c;
+}
+
+.select__plan{
+    font-family: "Lato";
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 78.2px;
+    margin-top: 82.6px;
+
 }
