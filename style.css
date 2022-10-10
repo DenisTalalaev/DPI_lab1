@@ -277,7 +277,8 @@ i {
     border: thin solid #d9d9d9;
     height: 192px;
     width: 889px;
-    margin-left: 1px;
+    margin-left: -1.4px;
+    margin-top: 0px;
 }
 
 .grid__item {
@@ -299,6 +300,7 @@ i {
     width: 13px;
     height: 13px;
     bottom: -65px;
+    left: -111px;
     right: 7px;
     display: block;
     background-color: #fff;
@@ -310,7 +312,7 @@ i {
     width: 10px;
     height: 16px;
     bottom: 55px;
-    right: -217px;
+    left: 111px;
     display: block;
     background-color: #fff;
 }
@@ -320,6 +322,7 @@ i {
     content: ' ';
     width: 26px;
     height: 13px;
+    left: -97.5px;
     bottom: -65px;
     display: block;
     background-color: #fff;
@@ -330,8 +333,8 @@ i {
     content: ' ';
     width: 13px;
     height: 13px;
-    bottom: -65px;
-    right: 7px;
+    bottom: -62px;
+    left: -111px;
     display: block;
     background-color: #fff;
 }
@@ -342,7 +345,7 @@ i {
     width: 30px;
     height: 10px;
     bottom: -35px;
-    right: -191px;
+    left: 95.5px;
     display: block;
     background-color: #fff;
 }
@@ -353,7 +356,7 @@ i {
     width: 10px;
     height: 16px;
     bottom: 55px;
-    right: -217px;
+    left: 111px;
     display: block;
     background-color: #fff;
 }
@@ -364,7 +367,7 @@ i {
     width: 10px;
     height: 15px;
     bottom: -32px;
-    right: -217px;
+    left: 111px;
     display: block;
     background-color: #fff;
 }
@@ -578,5 +581,170 @@ i {
     font-size: 16px;
     margin-left: 78.2px;
     margin-top: 82.6px;
+}
 
+.about__us{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 765px;
+    right: 0;
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about__us__panel{
+    position: relative;
+    width: 1200px;
+    height: 360px;
+    background: white;
+    border-top: #d8d8d8 dotted 3px;
+}
+
+.about__us__title{
+    position: absolute;
+    top: 97px;
+    left: 1px;
+    font-weight: 600;
+    font-family: "Lato";
+    font-size: 35.11px;
+}
+
+.about{
+    font-size: 35.11px;
+    font-family: "Lato Black";
+    font-weight: normal;
+}
+
+.paste{
+    color: #aaaaaa;
+    font-family: "Lato";
+    font-size: 18.06px;
+    line-height: 27px;
+    letter-spacing: -0.8px;
+    width: 400px;
+    position: absolute;
+    left: 1px;
+    top: 160px;
+}
+
+.designers__panel{
+    position: absolute;
+    width: 681.5px;
+    height: 185px;
+    background: white;
+    border-left: #d8d8d8 dotted 3px;;
+    right: 0;
+    top: 107px;
+}
+
+.designer__panel{
+    position: absolute;
+    width: 160px;
+    height: 185px;
+}
+
+.jonny__panel{
+    left: 70.3px;
+}
+
+.john__panel{
+    left: 299px;
+}
+
+.johnathan__panel{
+    left: 525px;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.round {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%; /* Радиус скругления */
+    border: 4px solid #e5e5e5; /* Параметры тени */
+}
+
+.designer__img{
+    width: 107%;
+    height: 107%;
+    object-fit: fill;
+}
+
+.name{
+    top: 111px;
+
+    position: absolute;
+    font-weight: 600;
+    font-family: "Lato";
+    font-size: 17px;
+}
+
+.jonny__name{
+    left: 42px;
+}
+
+.john__name{
+    left: 44px;
+}
+
+.johnathan__name{
+    left: 25px;
+}
+
+.designer{
+    top: 137px;
+    left: 51px;
+    position: absolute;
+    color: #8e8e8e;
+    font-weight: normal;
+    font-family: "Lato";
+    font-size: 15px;
+}
+
+.jonny__des{
+    left: 51px;
+}
+
+.john__des{
+    left: 48.5px;
+}
+
+.johnathan__des{
+    left: 60px;
+}
+
+.icons{
+    margin-top: 64px;
+    margin-left: 35px;
+}
+
+.fa-facebook:hover{
+    color: #1f89ba;
+    cursor: pointer;
+}
+
+.fa-twitter{
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.fa-twitter:hover{
+    color: #1f89ba;
+    cursor: pointer;
+}
+
+.fa-link{
+    margin-left: 18px;
+    margin-top: 4px;
+}
+
+.fa-link:hover{
+    color: #1f89ba;
+    cursor: pointer;
 }
