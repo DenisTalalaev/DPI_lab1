@@ -54,18 +54,21 @@
         </div>
     </div>
 
-    <div class="domain">
+    <section class="domain-buy" id="domain">
         <div class="domain-container">
             <div class="domain__title">Would you like to buy a new domain ?</div>
             <div class="domain__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse auctor mauris
                 ac nulla interdum, id molestier.</div>
             <div class="input-domain">
-                <!-- <h4>www.</h4> -->
-                <input type="text"
-                    pattern="[^(((?!\-))(xn\-\-)?[a-z0-9\-_]{0,61}[a-z0-9]{1,1}\.)*(xn\-\-)?([a-z0-9\-]{1,61}|[a-z0-9\-]{1,30})\.[a-z]{2,}$]"
-                    placeholder="What do you want?" class="input-domain__item">
-                <i class="fa-solid fa-chevron-down chevron-down-width"></i>
-                <!-- <h4>.com</h4> -->
+                <span class="www">www.</span>
+                <input class="domain" type="text" placeholder="What do you want?">
+                <select name="domain-name" id="domain-name">
+                    <option value="com">.com</option>
+                    <option value="net">.net</option>
+                    <option value="by">.by</option>
+                    <option value="ru">.ru</option>
+                    <option value="ua">.ua</option>
+                </select>
             </div>
             <div class="domain-prices">
                 <table class="grid-container">
@@ -84,7 +87,7 @@
                 </table>
             </div>
         </div>
-    </div>
+    </section>
 
     <div class="packages">
         <div class="packages__banners">
