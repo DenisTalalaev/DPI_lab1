@@ -36,17 +36,25 @@
     background-repeat: no-repeat;
 }
 
+.logo{
+    position: absolute;
+}
 
 .logo__img {
+    position: absolute;
+    margin-top: 1px;
     min-height: 29px;
     max-width: 133px;
 }
 
 .nav {
+    margin-left: 488px;
     padding-top: 4px;
+    width: 637px;
 }
 
 .nav__item {
+    margin-left: 69px;
     font-size: 16px;
     color: #ffffff;
     font-weight: 500;
