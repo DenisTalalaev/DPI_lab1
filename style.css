@@ -412,66 +412,60 @@ h1.domain__title {
     height: 765px;
     background-color: black;
     display: flex;
-    justify-content: space-between;
 }
 
 .package__banner {
-    position: absolute;
+    position: relative;
+    flex-direction: column;
     top: 100px;
-    left: 0px;
     width: 255px;
     height: 565px;
+    margin-right: 59px;
+    margin-left: 0px;
+    padding: 20px;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.07);
     border-top: 5.1px solid;
+    display: flex;
+    align-items: center;
 }
 
 .basic__package {
-    position: absolute;
     margin-left: 200px;
     border-top-color: #f9d423;
 }
 
 .normal__package {
-    position: absolute;
-    margin-left: 514px;
     border-top-color: #7f8c8d;
 }
 
 .big__package {
-    position: absolute;
-    margin-left: 828px;
     border-top-color: #f85f40;
 }
 
 .biggest__package {
-    position: absolute;
-    margin-left: 1143px;
     border-top-color: #1abc9c;
 }
 
 .basic__package__img {
-    margin-top: 36px;
-    margin-left: 97px;
+    margin-top: 15px;
 }
 
 .normal__packages__img {
-    margin-top: 36px;
-    margin-left: 97px;
+    margin-top: 15px;
 }
 
 .big__packages__img {
-    margin-top: 36px;
-    margin-left: 97px;
+    margin-top: 15px;
 }
 
 .biggest__packages__img {
-    margin-top: 36px;
-    margin-left: 97px;
+    margin-top: 15px;
 }
 
 .basic__package__title {
-    margin-top: 105.5px;
+    margin-top: 85px;
+    margin-bottom: 20px;
     text-align: center;
     font-weight: bold;
     font-family: "Lato";
@@ -482,15 +476,13 @@ h1.domain__title {
     border-top: 1px solid #d9d9d9;
     border-bottom: 1px solid #d9d9d9;
     width: 200px;
-    margin-left: 28px;
-    margin-top: 17px;
+
 }
 
 .left__item {
     display: inline-block;
     height: 36px;
     padding-top: 15px;
-    margin-left: -3px;
     font-family: "Lato";
     font-weight: lighter;
     color: #b4b4b4;
@@ -527,69 +519,48 @@ h1.domain__title {
     height: 12px;
 }
 
-.package__price {
-    width: 105px;
-    height: 30px;
-    color: #7f8c8d;
-    position: absolute;
-    font-family: "Lato";
-    font-weight: normal;
-    font-size: 13px;
-    margin-left: 138px;
-    margin-top: 41px;
+.block-price {
+    margin-top: 25px;
 }
 
-.currency {
-    color: black;
-    position: absolute;
-    font-family: "Lato";
-    font-weight: bolder;
-    font-size: 16.5px;
-    margin-left: -43px;
-    margin-top: -9px;
-}
-
-.bold__price {
-    color: black;
-    position: absolute;
-    font-family: "Lato";
+.block-price .price {
+    font-size: 30px;
     font-weight: bold;
-    font-size: 27.7px;
-    margin-left: -32.5px;
-    margin-top: -14px;
+}
+
+.price sup {
+    font-size: 16px;
+}
+
+.price sub {
+    font-weight: 200;
+    font-size: 13px;
+    color: #B4B4B4
 }
 
 .basic__price__bar {
-    position: absolute;
-    margin-top: 63px;
-    margin-left: 75px;
+
     width: 105px;
     height: 3px;
     background-color: #f9d423;
 }
 
 .normal__price__bar {
-    position: absolute;
-    margin-top: 63px;
-    margin-left: 75px;
+
     width: 105px;
     height: 3px;
     background-color: #7f8c8d;
 }
 
 .big__price__bar {
-    position: absolute;
-    margin-top: 63px;
-    margin-left: 75px;
+
     width: 105px;
     height: 3px;
     background-color: #f85f40;
 }
 
 .biggest__price__bar {
-    position: absolute;
-    margin-top: 63px;
-    margin-left: 75px;
+
     width: 105px;
     height: 3px;
     background-color: #1abc9c;
@@ -599,8 +570,7 @@ h1.domain__title {
     font-family: "Lato";
     font-weight: bold;
     font-size: 16px;
-    margin-left: 78.2px;
-    margin-top: 82.6px;
+    margin-top: 15px;
 }
 
 .about__us {
@@ -648,31 +618,21 @@ h1.domain__title {
 
 .designers__panel {
     position: absolute;
+    display: flex;
     width: 681.5px;
     height: 185px;
     background: white;
     border-left: #d8d8d8 dotted 3px;
-    ;
     right: 0;
     top: 107px;
 }
 
 .designer__panel {
-    position: absolute;
+    position: relative;
+    flex-direction: column;
+    margin: 0px 0px 0px 75px;
     width: 160px;
     height: 185px;
-}
-
-.jonny__panel {
-    left: 70.3px;
-}
-
-.john__panel {
-    left: 299px;
-}
-
-.johnathan__panel {
-    left: 525px;
 }
 
 .circle {
@@ -697,51 +657,25 @@ h1.domain__title {
 }
 
 .name {
-    top: 111px;
-
-    position: absolute;
+    margin-top: 15px;
+    text-align: center;
     font-weight: 600;
     font-family: "Lato";
     font-size: 17px;
 }
 
-.jonny__name {
-    left: 42px;
-}
-
-.john__name {
-    left: 44px;
-}
-
-.johnathan__name {
-    left: 25px;
-}
-
 .designer {
-    top: 137px;
-    left: 51px;
-    position: absolute;
+    margin-top: 5px;
+    text-align: center;
     color: #8e8e8e;
     font-weight: normal;
     font-family: "Lato";
     font-size: 15px;
 }
 
-.jonny__des {
-    left: 51px;
-}
-
-.john__des {
-    left: 48.5px;
-}
-
-.johnathan__des {
-    left: 60px;
-}
-
 .icons {
-    margin-top: 64px;
-    margin-left: 35px;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .fa-facebook:hover {
@@ -751,7 +685,6 @@ h1.domain__title {
 
 .fa-twitter {
     margin-left: 20px;
-    margin-top: 4px;
 }
 
 .fa-twitter:hover {
@@ -760,8 +693,7 @@ h1.domain__title {
 }
 
 .fa-link {
-    margin-left: 18px;
-    margin-top: 4px;
+    margin-left: 20px;
 }
 
 .fa-link:hover {
@@ -804,7 +736,7 @@ h1.domain__title {
 }
 
 #quote__slides article {
-    /*все изображения справа друг от доруга*/
+    /*все изображения справа друг от друга*/
     width: 20%;
     float: left;
 }
