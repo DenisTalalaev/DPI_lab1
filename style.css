@@ -34,10 +34,6 @@
     background-repeat: no-repeat;
 }
 
-.logo{
-    position: absolute;
-}
-
 .logo__img {
     position: absolute;
     margin-top: 1px;
@@ -249,7 +245,6 @@ h1.domain__title {
     width: 888px;
     border: 1px solid #D9D9D9;
     margin-top: 49px;
-    position: relative;
     padding-left: 1px;
 }
 
@@ -283,7 +278,6 @@ h1.domain__title {
 }
 
 .domain-prices {
-    position: center;
     margin-left: 3px;
     margin-top: 40px;
 }
@@ -405,7 +399,6 @@ h1.domain__title {
 }
 
 .packages__banners {
-    position: relative;
     margin-top: 3px;
     top: 0px;
     width: 1600px;
@@ -590,9 +583,7 @@ h1.domain__title {
 }
 
 .about__us__title {
-    position: absolute;
-    top: 97px;
-    left: 1px;
+    margin-top: 97px;
     font-weight: 600;
     font-family: "Lato";
     font-size: 35.11px;
@@ -628,7 +619,6 @@ h1.domain__title {
 }
 
 .designer__panel {
-    position: relative;
     flex-direction: column;
     margin: 0px 0px 0px 75px;
     width: 160px;
@@ -712,7 +702,6 @@ h1.domain__title {
 }
 
 .slider__panel {
-    position: relative;
     top: 0px;
     width: 1601px;
     height: 190px;
@@ -793,7 +782,6 @@ h1.domain__title {
 }
 
 .quoter {
-    position: absolute;
     text-align: center;
     color: #f5f5f5;
     font-family: "Lato";
@@ -806,7 +794,6 @@ h1.domain__title {
 }
 
 .quote__owner {
-    position: absolute;
     text-align: right;
     color: #f5f5f5;
     font-family: "Lato";
@@ -902,7 +889,6 @@ label {
 
 .feature-blocks {
     display: flex;
-    position: relative;
     right: 0px;
     align-items: center;
     padding: 98px 0px 85px 0px;
@@ -1020,7 +1006,6 @@ label {
 .footer-header {
     width: 1200px;
     border-bottom: 1px solid #4a4a4a;
-    position: relative;
     align-items: center;
     display: flex;
     padding: 23px 0;
